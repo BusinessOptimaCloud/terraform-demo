@@ -1,0 +1,9 @@
+Download main.tf on your server in which terraform installed 
+Attach the AmazonVPCFullAccess policy to the server in which terraform installed
+Once above steps are done run the following commands
+$ terraform init
+$ terraform plan
+$ terraform apply
+once the above commands are passed you can see the new VPC, RT, Subnets been created in your aws console
+To delete the created services use the below code
+$ terraform destroy
