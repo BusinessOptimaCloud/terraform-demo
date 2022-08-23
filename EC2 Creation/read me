@@ -1,0 +1,9 @@
+create 2 files main.tf and variable.tf on your server in which terraform installed and past the codes, 
+pls give the key-pair name in variable.tf file, the key-pair name should be available in your console to access the server. 
+once above steps are done run the following commands
+$ terraform init
+$ terraform plan
+$ terraform plan
+once the above commands are passed you can see the new instace been launched in your console in the name of Business optima
+To delete the created instance use the below code
+$ terraform destroy
