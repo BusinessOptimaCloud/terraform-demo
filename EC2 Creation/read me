@@ -1,5 +1,6 @@
 Download main.tf and variable.tf on your server in which terraform installed 
 Update the key-pair name in variable.tf file, the key-pair name should be available in your console to access the server. 
+Attach the AmazonEC2FullAccess policy to the server in which terraform installed
 Once above steps are done run the following commands
 $ terraform init
 $ terraform plan
