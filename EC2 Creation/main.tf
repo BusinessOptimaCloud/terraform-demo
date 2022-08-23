@@ -10,8 +10,8 @@ provider "aws" {
   region = "ap-south-1"
 }
 resource "aws_instance" "demo_instance" {
-  ami = "ami-08df646e18b182346"
-  instance_type = "t2.micro"
+  ami = var.ami
+  instance_type = var.instance_type
   availability_zone = "ap-south-1b"
   key_name = var.key_name
 
