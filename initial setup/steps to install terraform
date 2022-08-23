@@ -1,0 +1,16 @@
+   
+   Need to download the terraform package from the below link for Ubuntu/amazon/CentOs/RHEL
+        
+    $ wget https://releases.hashicorp.com/terraform/1.2.5/terraform_1.2.5_linux_amd64.zip 
+
+   To unzip the downloaded file 
+
+     $ unzip terraform_1.2.5_linux_amd64.zip
+
+   Move the binary file to environment path,
+
+     $ mv terraform /usr/local/bin 
+
+   can check the version by 
+    
+      $ terraform –version 
