@@ -1,7 +1,7 @@
 #!/bin/bash
 date
 
-yum update && yum install docker git
+yum update && yum install docker git -y
 codepath="/root/sentiment-analysis/containerized_webapp/"
 git clone https://github.com/BusinessOptimaCloud/sentiment-analysis.git
 cd ${codepath}
