@@ -13,4 +13,4 @@
 
    To check the terraform version
     
-    $ terraform –version 
+    $ terraform version 
