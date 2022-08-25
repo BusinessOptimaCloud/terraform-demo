@@ -3,6 +3,7 @@ date
 
 echo assumeyes=1 >> /etc/yum.conf
 yum update && yum install docker git -y
+cd "/root/"
 codepath="/root/sentiment-analysis/containerized_webapp/"
 git clone https://github.com/BusinessOptimaCloud/sentiment-analysis.git
 cd ${codepath}
