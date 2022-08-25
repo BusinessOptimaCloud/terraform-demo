@@ -13,18 +13,18 @@ variable "cidr_block_subnet" {
 variable "image_id" {
   description = "instance ami id"
   type = string
-  default = "ami-08df646e18b182346"
+  default = "ami-06489866022e12a14"
 }
 
 variable "instance_type" {
   description = "instance type"
   type = string
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
 variable "key_name" {
   description = "key for your instance"
   type = string
-  default = "visva8"
+  default = "<give existing key-pair>"
 }
 
