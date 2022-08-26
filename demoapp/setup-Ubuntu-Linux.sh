@@ -1,7 +1,6 @@
 #!/bin/bash
 date
 
-echo assumeyes=1 >> /etc/yum.conf
 apt update && apt install docker.io git -y
 cd "/root/"
 codepath="/root/sentiment-analysis/containerized_webapp/"
