@@ -25,5 +25,5 @@ variable "instance_type" {
 variable "key_name" {
   description = "key for your instance"
   type = string
-  default = "<give-existing-key-pair>"
+  default = "<give-existing-key-pair"
 }
